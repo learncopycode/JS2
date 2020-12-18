@@ -1,0 +1,347 @@
+body, text, tspan{
+
+    font-family:"Roboto Condensed",sans-serif;
+}
+
+.kokoflex {
+    display: grid;
+    grid-template-columns: 75% 25%;
+    width: 80%;
+    margin: auto;
+}
+    
+    #carouselExampleControls3{
+    
+      width:90%;
+      margin:auto;
+    }
+    .im{width: 80%;
+        position: relative;}
+
+    .im2 {
+        width: 80%;
+        left: 40px;
+        position: relative;
+        
+    }
+    
+    .mar{margin:auto;
+    width:50%;
+display: none;}
+    a.carousel-control-next> svg {
+        width: 20%;
+    }
+    a.carousel-control-prev> svg {
+        width: 20%;
+    }
+    .im{width: 80%;}
+
+.products img {
+    width: 60px;
+}
+.kokocover {
+    position: relative;
+    top: 130px;
+}
+
+.mapinfo2>svg {
+    width: 170px;
+}
+.mapinfo2{
+    display:none;
+}
+.container-fluid{
+
+    padding-right: 15px!important;
+    padding-left: 15px!important;
+    margin-right: auto!important;
+    margin-left: auto!important;
+}
+
+.logo {
+    position: absolute;
+    left: 0;
+}
+.imagediv {
+    mix-blend-mode: multiply;
+    background-image: url(A.jpg);
+    /* height: 80vh; */
+    width: 100%;
+    background-size: cover;
+    height: 100vh;
+    background-position: right top;
+    background-repeat: no-repeat;
+}
+
+
+.followMeBar {
+    
+filter: drop-shadow(0px 3px 6px rgba(80, 111, 135, 1));
+    
+/* background: lightblue; */
+    
+padding: 10px 20px;
+    
+position: relative;
+    
+z-index: 3;
+    
+top: 60px;
+    
+color: #fff;
+    
+width: 86%;
+    
+/* height: 70px; */
+    
+border-radius: 0px 100px 100px 0px;
+    
+height: 200px;
+    
+/* opacity: 0.84; */
+    
+BACKGROUND-COLOR: rgba(	42, 111, 179, 1);
+    
+stroke: rgba(112,112,112,1);
+    
+stroke-width: 1px;
+    
+stroke-linejoin: miter;
+    
+stroke-linecap: butt;
+    
+stroke-miterlimit: 4;
+    
+shape-rendering: auto;
+    
+z-index:11;
+}   
+
+.page-1{
+    z-index:1;
+
+    position: relative;
+    top:100px
+}
+
+.followMeBar.fixed {
+    position: fixed;
+    top: 140px;
+    width:85.83%;
+    box-sizing: border-box;
+    z-index: 10;
+}
+  
+  .followMeBar.fixed.absolute {
+    position: absolute;
+  }
+.page-2{
+
+/* position: relative; */
+
+overflow:hidden;
+
+/* top: 0; */
+
+width:100%;
+}
+  .text{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    left: 14.16%;
+    /* top: 1267px; */
+    position: relative;
+    overflow: visible;
+    width: 651px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    color: rgba(255,255,255,1);
+    text-transform: uppercase;
+}
+.text2{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    left: 14.16%;
+    /* top: 1267px; */
+    position: relative;
+    overflow: visible;
+    width: 651px;
+    white-space: wrap;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    color: rgba(255,255,255,1);
+    text-transform: uppercase;
+}
+
+
+.container2 {
+    width: 100%;
+    position: relative;
+}
+
+.heightmask {
+    overflow: scroll;
+    position: relative;
+    width: 100%;
+    height: 85vh;
+}
+
+p {
+    font-size: 2vw!important;
+    text-align: justify;
+  top:100px;
+  left:3px;
+    position: relative;
+
+    width: 73.5%;
+    margin:auto!important;
+    white-space: wrap;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    color: rgba(0,84,165,1);
+}
+  
+  
+
+  
+
+
+
+
+
+
+
+@media only screen and (max-width:2561px){}
+@media only screen and (max-width:1922px){}
+@media only screen and (min-width:1560px) and (max-width:1922px){}
+@media only screen and (max-width:1562px){}
+@media only screen and (max-width:1442px){}
+@media only screen and (max-width:1442px){}
+@media only screen and (max-width:1368px){}
+@media only screen and (max-width:1281px){}
+@media only screen and (max-width:1080px){}
+@media only screen and (max-width:1025px){
+
+
+    .mapinfo2{
+        display:flex;
+        justify-content: center;
+        width: 100%;
+        position:relative;
+    }
+
+
+    p {
+        font-size: 3vw!important;
+        text-align: justify;
+        top: 90px;
+        left: 3px;
+        /* transform-origin: top; */
+        position: relative;
+        width: 83.5%;
+        margin: auto!important;
+        white-space: wrap;
+        text-align: left;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 36px;
+        color: rgba(0,84,165,1);
+    }
+    .text {
+        width: 100%;
+        font-size: 4.9vw;
+        left: 7.46%;
+        height: 100%;
+    }
+    .text2 {
+        width: 100%;
+        font-size: 4.9vw;
+        left: 7.46%;
+        height: 100%;
+    }
+}
+@media only screen and (max-width:972px){}
+@media only screen and (max-width:770px){
+    .dis{display:none;}
+    .kokoflex {
+        display: grid;
+        grid-template-columns: 100%;
+        width: 90%;
+        margin: auto;
+    }
+
+    .mar{display: block;}
+}
+@media only screen and (max-width:702px){
+
+   
+
+    .text {
+        width: 100%;
+        white-space: break-spaces;
+        font-size: 6.9vw;
+        line-height: 45px;
+        left: 7.46%;
+        height: 100%;
+    }
+    .text2 {
+        width: 100%;
+        white-space: break-spaces;
+        font-size: 6.9vw;
+        line-height: 45px;
+        left: 7.46%;
+        height: 100%;
+    }
+}
+@media only screen and (max-width:500px){
+    
+}
+@media only screen and (max-width:380px){
+    .text {
+        width: 100%;
+        white-space: break-spaces;
+        font-size: 7.9vw;
+        left: 7.46%;
+        height: 100%;
+    }
+
+    
+    p {
+        font-size: 4.4vw!important;
+        text-align: justify;
+        top: 90px;
+        left: 9px;
+        /* transform-origin: top; */
+        position: relative;
+        width: 83.5%;
+        margin: auto!important;
+        white-space: wrap;
+        text-align: left;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 36px;
+        color: rgba(0,84,165,1);
+    }
+}
+
+@media only screen and (max-width:322px){}
+
+
+
+
